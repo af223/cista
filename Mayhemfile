@@ -2,7 +2,7 @@
 project: af223/cista
 
 # Target name (should be unique within the project)
-target: cista-fuzz-hash_map_verification
+target: cista-fuzz-graph
 
 # Base image to run the binary in.
 # image: ghcr.io/af223/fuzzme:latest
@@ -12,6 +12,5 @@ cmds:
 
   # Command used to start the target, "@@" is the input file
   # (when "@@" is omitted Mayhem defaults to stdin inputs)
-  - cmd: /cista-fuzz-hash_map_verification
   - cmd: /cista-fuzz-graph
 
