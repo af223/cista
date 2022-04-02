@@ -13,4 +13,5 @@ cmds:
   # Command used to start the target, "@@" is the input file
   # (when "@@" is omitted Mayhem defaults to stdin inputs)
   - cmd: /cista-fuzz-hash_map_verification
+  - cmd: /cista-fuzz-graph
 
